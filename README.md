@@ -1,10 +1,6 @@
 # variant-analysis-practice
 Practice workflow for variant filtering, annotation, and interpretation using VCF-style data.
 
-# Variant Analysis Practice
-
-This project is a practice workflow for clinical variant filtering and interpretation.
-
 ## Goal
 To demonstrate basic steps used in variant analysis, including quality filtering, population frequency filtering, and clinical database review.
 
