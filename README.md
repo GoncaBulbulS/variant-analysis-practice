@@ -20,14 +20,17 @@ To demonstrate basic steps used in variant analysis, including quality filtering
 
 ## Example Variant Filtering
 
-From the sample dataset:
+Starting from the sample dataset:
 
-- Removed low-quality variants (quality < 30)
-- Removed common variants (frequency > 0.01)
-- Prioritized rare, high-quality variants
+Filtering criteria:
+- Remove variants with quality < 30
+- Remove variants with frequency > 0.01
 
-### Resulting Candidates
-- BRCA1 variant (rare, high quality)
-- CFTR variant (very rare, high quality)
+### Filtered Results
+See `filtered_variants.csv`
 
-These would be further evaluated using databases such as ClinVar and population resources.
+Remaining candidate variants:
+- BRCA1 (rare, high quality)
+- CFTR (very rare, high quality)
+
+These candidates would be further evaluated using databases such as ClinVar and population resources.
