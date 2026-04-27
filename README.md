@@ -34,3 +34,7 @@ Remaining candidate variants:
 - CFTR (very rare, high quality)
 
 These candidates would be further evaluated using databases such as ClinVar and population resources.
+
+## Code Example
+
+A simple Python script (`filter_variants.py`) was used to filter variants based on quality and population frequency.
