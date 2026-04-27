@@ -1,0 +1,5 @@
+chrom,position,ref,alt,quality,frequency,gene
+chr1,12345,A,G,99,0.001,BRCA1
+chr2,67890,C,T,20,0.002,TP53
+chr3,11111,G,A,85,0.25,APOE
+chr4,22222,T,C,90,0.0005,CFTR
