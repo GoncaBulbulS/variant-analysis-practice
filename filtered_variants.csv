@@ -1,0 +1,3 @@
+chrom,position,ref,alt,quality,frequency,gene
+chr1,12345,A,G,99,0.001,BRCA1
+chr4,22222,T,C,90,0.0005,CFTR
