@@ -17,3 +17,17 @@ To demonstrate basic steps used in variant analysis, including quality filtering
 - Population frequency reasoning
 - Clinical genomics terminology
 - Reproducible analysis with Python
+
+## Example Variant Filtering
+
+From the sample dataset:
+
+- Removed low-quality variants (quality < 30)
+- Removed common variants (frequency > 0.01)
+- Prioritized rare, high-quality variants
+
+### Resulting Candidates
+- BRCA1 variant (rare, high quality)
+- CFTR variant (very rare, high quality)
+
+These would be further evaluated using databases such as ClinVar and population resources.
